@@ -1,0 +1,46 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 50px;
+    background-color: #F2F2F2;
+}
+
+h1, p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#choices_list {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#choices_list div {
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width: 32%;
+    display: flex;
+    justify-content: center;
+}
+
+#choice_1 {
+    background-image: url("https://i2-prod.edinburghlive.co.uk/incoming/article25967123.ece/ALTERNATES/s1200c/0_Lewis-C-2.jpg");
+}
+#choice_2 {
+    background-image: url("https://media.s-bol.com/GMN80VDA9kNr/1191x1200.jpg");
+}
+#choice_3 {
+    background-image: url("https://scontent.fcrl2-1.fna.fbcdn.net/v/t39.30808-6/283441431_580567336760262_5009594614103327487_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=ZAeHNTW1d6sAX_85bxb&tn=uUOPcyJjJr0njtYO&_nc_ht=scontent.fcrl2-1.fna&oh=00_AfDyjR5mL80AtFYk_S3D_riQxwEZ0D0ZrhySMNQoSYsrZw&oe=63E8E616");
+}
+
+#choices_list div p {
+    background-color: white;
+    width: 125px;
+    height: 38px;
+    margin-top: 240px;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
